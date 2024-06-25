@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>HTML Academy: Седона</title>
   </head>
   <body>
@@ -21,11 +22,11 @@
           </ul>
           <ul class="navigation-icon-list">
               <li class="navigation-icon-item">
-                  <a class="navigation-icon-link" href="#">
+                  <a class="navigation-icon-link search" href="#">
                       <span class="visually-hidden">Поиск</span>
                   </a>
               </li>
-              <li class="navigation-icon-item">
+              <li class="navigation-icon-item heart">
                   <a class="navigation-icon-link" href="#">
                     <span class="visually-hidden">Избранное</span>
                   </a>
@@ -35,39 +36,51 @@
       </nav>
   </header>
   <main class="main-index">
+      <section class="preview">
       <h1 class="visually-hidden">Седона</h1>
       <img class="preview-logo" src="images/welcome.svg" alt="Превью Седоны Логотип" width="458px" height="352px">
+      </section>
       <section>
           <h2 class="visually-hidden">Что такое Седона?</h2>
-          <p>Седона — небольшой городок в Аризоне,
+          <p class="description">Седона — небольшой городок в Аризоне,
               заслуживающий большего!</p>
-          <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+          <p class="description-part">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
       <section>
           <h2 class="visually-hidden">Особенности Седоны</h2>
           <ul class="advantages-list">
-            <li class="advantages-item">
-                <h3 class="advantages-title">Настоящий городок</h3>
-                <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-                <img src="images/photo-1.jpg" alt="Изображение Седоны" width="800px" height="385px">
-            </li>
-            <li class="advantages-item">
-                <h3 class="advantages-title">Небольшая площадь</h3>
-                <p class="advantages-description">Все достопримечательности находятся очень близко</p>
-            </li>
-            <li class="advantages-item">
-                <h3 class="advantages-title">Красивая дорога</h3>
-                <p class="advantages-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-            </li>
-            <li class="advantages-item">
-                <h3 class="advantages-title">Мало туристов</h3>
-                <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
-            </li>
-            <li class="advantages-item">
-                <img src="images/photo-2.jpg" alt="Мост дьявола" width="800px" height="385px">
-                <h3 class="advantages-title">Там есть мост дьявола</h3>
-                <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            </li>
+            <div class="blue">
+              <li class="advantages-item">
+                  <h3 class="advantages-title-white">Настоящий городок</h3>
+                  <p class="advantages-description-white">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                  <img src="images/photo-1.jpg" alt="Изображение Седоны" width="800px" height="385px">
+              </li>
+            </div>
+            <div class="very-light-blue">
+              <li class="advantages-item">
+                  <h3 class="advantages-title-black">Небольшая площадь</h3>
+                  <p class="advantages-description-black">Все достопримечательности находятся очень близко</p>
+              </li>
+            </div>
+            <div class="light-blue">
+              <li class="advantages-item">
+                  <h3 class="advantages-title-black">Красивая дорога</h3>
+                  <p class="advantages-description-black">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              </li>
+            </div>
+            <div class="very-light-blue">
+              <li class="advantages-item">
+                  <h3 class="advantages-title-black">Мало туристов</h3>
+                  <p class="advantages-description-black">Большинство едет в Гранд Каньон и толпится там</p>
+              </li>
+            </div>
+            <div class="blue">
+              <li class="advantages-item">
+                  <img src="images/photo-2.jpg" alt="Мост дьявола" width="800px" height="385px">
+                  <h3 class="advantages-title">Там есть мост дьявола</h3>
+                  <p class="advantages-description-white">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              </li>
+            </div>
           </ul>
       </section>
       <section>

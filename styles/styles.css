@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+
+    font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #333333;
+  text-decoration: none;
+  text-align: center;
+}
+
+.search {
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+}
+
+.heart {
+  background-image: url("../images/heart.svg");
+  background-repeat: no-repeat;
+}
+
+.button {
+  background-color: #756157;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.preview {
+  background-image: url("../images/main-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.description {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.description-part {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.blue {
+  background-color: #82B3D3;
+  width: 400px;
+  height: 385px;
+}
+
+.advantages-title-white {
+  font-family: "PT Sans", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-description-white {
+  font-family: "PT Sans", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.very-light-blue {
+  background-color: #83B3D31F;
+  width: 400px;
+  height: 385px;
+}
+
+.light-blue {
+  background-color: #83B3D333;
+  width: 400px;
+  height: 385px;
+}
+
+.advantages-description-black {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+}
+
+.advantages-title-black {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
