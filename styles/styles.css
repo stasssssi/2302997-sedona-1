@@ -47,11 +47,13 @@ body {
 
 .button {
   background-color: #756157;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .preview {
@@ -76,11 +78,6 @@ body {
   line-height: 26px;
 }
 
-.blue {
-  background-color: #82B3D3;
-  width: 400px;
-  height: 385px;
-}
 
 .advantages-title-white {
   font-family: "PT Sans", sans-serif;
@@ -101,13 +98,15 @@ body {
 .very-light-blue {
   background-color: #83B3D31F;
   width: 400px;
-  height: 385px;
 }
 
 .light-blue {
   background-color: #83B3D333;
   width: 400px;
-  height: 385px;
+}
+
+.white-block {
+  width: 400px;
 }
 
 .advantages-description-black {
@@ -122,4 +121,82 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-item-picture {
+  width: 1200px;
+  background-color: #82B3D3;
+}
+
+.home {
+  background-image: url(../images/home.svg);
+  background-repeat: no-repeat;
+}
+
+.description-white {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.description-part-white {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.newsletter {
+  background-image: url(../images/image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 415px;
+}
+
+.newsletter-button {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.vk {
+  background-image: url(../images/vk.svg);
+  background-repeat: no-repeat;
+}
+
+.tg {
+  background-image: url(../images/telegram.svg);
+  background-repeat: no-repeat;
+}
+
+.you-tube {
+  background-image: url(../images/you-tube.svg);
+  background-repeat: no-repeat;
+}
+
+.footer-contacts-phone {
+  color: #333333;
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
 }
