@@ -30,12 +30,13 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
-  color: #333333;
+  color: #000000;
   text-decoration: none;
   text-align: center;
 }
 
 .button {
+  font-family: "PT Sans", sans-serif;
   background-color: #756157;
   color: #FFFFFF;
   text-decoration: none;
@@ -44,6 +45,11 @@ body {
   line-height: 15px;
   text-transform: uppercase;
   text-align: center;
+  padding: 8px 34px;
+}
+
+.big-button {
+  padding: 8px 50px;
 }
 
 .preview {
@@ -59,6 +65,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .description-part {
@@ -182,7 +189,7 @@ body {
 }
 
 .footer-contacts-phone {
-  color: #333333;
+  color: #000000;
   font-family: "PT Sans", sans-serif;
   text-align: center;
   font-weight: 400;
@@ -236,7 +243,7 @@ body {
   text-align: center;
 }
 
-h2 {
+.title {
   color: #000000;
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
@@ -245,17 +252,20 @@ h2 {
   text-transform: uppercase;
 }
 
+.product-card-link {
+  text-decoration: none;
+}
+
 .product-card-title {
   color: #000000;
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  text-decoration: none;
   text-align: left;
 }
 
-b {
+.price {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -272,7 +282,7 @@ b {
   text-transform: uppercase;
 }
 
-h3 {
+.title-hotel {
   color: #000000;
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
@@ -292,4 +302,42 @@ h3 {
 
 .newsletter-form {
   text-align: center;
+}
+
+.pagination-link {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #82B3D3;
+  padding-top: 11px;
+  padding-right: 24px;
+  padding-bottom: 13px;
+  padding-left: 23px;
+  color: #FFFFFF;
+}
+
+.pagination-current {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+.pagination-empty {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.ten {
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.hotel {
+  font-family: "PT Sans", sans-serif;
+  color: #333333;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
