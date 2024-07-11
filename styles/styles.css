@@ -16,13 +16,52 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
   color: #333333;
   background-color: #FFFFFF;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.logoSedona {
+  margin-right: auto;
+  width: 138px;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 570px;
+}
+
+.navigation-icon-list {
+  margin-left: auto;
+  max-width: 300px;
 }
 
 .navigation-link {
@@ -33,6 +72,11 @@ body {
   color: #000000;
   text-decoration: none;
   text-align: center;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
 }
 
 .button {
@@ -384,4 +428,81 @@ body {
 
 .small-breadcrumbs {
   color: #FFFFFF;
+}
+
+.preview-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+}
+
+.advantages-list-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 385px;
+}
+
+.advantages-item {
+  width: 400px;
+  min-height: 385px;
+}
+
+.page-footer-container {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.footer-social-list {
+  width: 142px;
+  padding: 0;
+  margin: 0;
+  margin-left: 70px;
+  margin-right: 41px
+}
+
+.footer-contacts-phone {
+  width: 720px;
+  margin-right: 41px;
+}
+
+.footer-contacts-logo {
+  width: 115px;
+
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.catalog-products {
+  display: flex;
+}
+
+.catalog-filter {
+  display: flex;
+}
+
+.product-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 340px;
+  max-height: 438px;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
