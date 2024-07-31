@@ -6,6 +6,7 @@
   <title>HTML Academy: Седона</title>
 </head>
 <body>
+  <div class="main-container">
   <header class="main-header">
     <nav class="navigation">
         <a href="index.html"><img class="logo" src="images/city-of-sedona.svg" alt="Логотип Седона"></a>
@@ -113,13 +114,13 @@
         <option value="cheap">Сначала дешёвые</option>
         <option value="cheap">Сначала популярные</option>
       </select>
-      <a href="#" class="button button-checked">
+      <a href="#" class="button-button button-checked">
         <span class="visually-hidden">Показать карточки</span>
       </a>
-      <a class="button" href="#">
+      <a class="button-button" href="#">
         <span class="visually-hidden">Показать не знаю что это</span>
       </a>
-      <a class="button" href="#">
+      <a class="button-button" href="#">
         <span class="visually-hidden">Показать список</span>
       </a>
       <ul class="product-list">
@@ -190,7 +191,7 @@
       </ul>
     </section>
     <section>
-      <h3>Подпишитесь на рассылку</h3>
+      <h3 class="description-black">Подпишитесь на рассылку</h3>
         <p class="information">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
             <label for="newsletter-email">Email</label>
@@ -201,7 +202,6 @@
   </div>
   </main>
   <footer class="page-footer">
-    <div class="page-footer-container">
     <section>
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
@@ -226,10 +226,8 @@
         <h2 class="visually-hidden">Контакты</h2>
         <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
     </section>
-    <section>
-        <a href="footer-contacts-logo"><img class="footer-contacts-logo" src="images/html-logo.svg" width="115px" height="33px" alt="Логотип htmlacademy"></a>
-    </section>
-  </div>
+    <a href="https://htmlacademy.ru/"><img class="footer-contacts-logo" src="images/html-logo.svg" width="115px" height="33px" alt="Логотип htmlacademy."></a>
 </footer>
+</div>
 </body>
 </html>

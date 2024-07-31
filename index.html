@@ -6,6 +6,7 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
+    <div class="main-container">
     <header class="main-header">
       <nav class="navigation">
         <a href="index.html"><img class="logo" class="logoSedona" src="images/city-of-sedona.svg" width="140px" height="70px" alt="Логотип Седона"></a>
@@ -36,7 +37,6 @@
       </nav>
   </header>
   <main class="main-index main-container">
-    <div class="page-container">
       <section class="preview">
       <h1 class="visually-hidden">Седона</h1>
       <img class="preview-logo" src="images/welcome.svg" alt="Превью Седоны Логотип" width="458px" height="352px">
@@ -50,12 +50,12 @@
       <section>
           <h2 class="visually-hidden">Особенности Седоны</h2>
           <ul class="advantages-list">
-              <li class="advantages-item-picture blue">
-                <div class="container">
-                  <h3 class="advantages-title-white">Настоящий городок</h3>
-                  <p class="advantages-description-white">Седона — не аттракцион для<br> туристов, там течёт своя жизнь</p>
-                  <img src="images/photo-1.jpg" class="image" alt="Изображение Седоны" width="800px" height="385px">
-                </div>
+              <li class="advantages-item-picture">
+                  <div class="advantages-item-wrapper">
+                    <h3 class="advantages-title-white">Настоящий городок</h3>
+                    <p class="advantages-description-white">Седона — не аттракцион для<br> туристов, там течёт своя жизнь</p>
+                  </div>
+                <img src="images/photo-1.jpg" class="image" alt="Изображение Седоны" width="800px" height="385px">
               </li>
               <li class="advantages-item very-light-blue">
                   <h3 class="advantages-title-black">Небольшая площадь</h3>
@@ -69,9 +69,9 @@
                   <h3 class="advantages-title-black">Мало туристов</h3>
                   <p class="advantages-description-black">Большинство едет в Гранд<br> Каньон и толпится там</p>
               </li>
-              <li class="advantages-item-picture blue">
-                <div class="container">
-                  <img src="images/photo-2.jpg" alt="Мост дьявола" width="800px" height="385px">
+              <li class="advantages-item-picture">
+                <img src="images/photo-2.jpg" alt="Мост дьявола" width="800px" height="385px">
+                <div class="advantages-item-wrapper">
                   <h3 class="advantages-title-white">Там есть мост дьявола</h3>
                   <p class="advantages-description-white">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
                 </div>
@@ -103,7 +103,7 @@
           <a class="button big-button" href="#">Поиск гостинницы в Седоне</a>
       </section>
       <section class="newsletter">
-          <h3 class="description-white">Подпишитесь на рассылку</h3>
+          <h3 class="description-white-white">Подпишитесь на рассылку</h3>
           <p class="description-part-white  ">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
               <label for="newsletter-email">Email</label>
@@ -111,10 +111,8 @@
               <button class="button newsletter-button big-button" type="submit">Подписаться</button>
           </form>
       </section>
-    </div>
   </main>
   <footer class="page-footer">
-    <div class="page-footer-container">
       <section>
           <h2 class="visually-hidden">Социальные сети</h2>
           <ul class="footer-social-list">
@@ -139,10 +137,8 @@
           <h2 class="visually-hidden">Контакты</h2>
           <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       </section>
-      <section>
-          <img class="footer-contacts-logo" src="images/html-logo.svg" width="115px" height="33px" alt="Логотип htmlacademy.">
-      </section>
-    </div>
+      <a href="https://htmlacademy.ru/"><img class="footer-contacts-logo" src="images/html-logo.svg" width="115px" height="33px" alt="Логотип htmlacademy."></a>
   </footer>
+  </div>
   </body>
 </html>
