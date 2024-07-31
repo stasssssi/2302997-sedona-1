@@ -86,6 +86,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   padding: 8px 34px;
+  display: inline-block;
 }
 
 .big-button {
