@@ -131,21 +131,31 @@
             <img class="product-card-image" src="images/hotel-1.jpg" width="300px" height="212px" alt="Amara Resort & Spa">
             <h3 class="product-card-title">Amara Resort & Spa</h3>
           </a>
-          <span>Гостиница</span>
-          <b class="price">От 4000 ₽</b>
-          <a class="product-card-button button button-small" href="#">Подробнее</a>
-          <a class="product-card-button-blue button button-blue-blue button-small-small" href="#">В избранное</a>
-          <p class="points">Рейтинг: 8,5</p>
+          <div class="price-wraper">
+            <span>Гостиница</span>
+            <b class="price">От 4000 ₽</b>
+          </div>
+          <div class="button-wraper">
+            <a class="product-card-button button button-small" href="#">Подробнее</a>
+            <a class="product-card-button-blue button button-blue-blue button-small-small" href="#">В избранное</a>
+          </div>
+          <div class="points">
+            <p class="points">Рейтинг: 8,5</p>
+          </div>
         </li>
         <li class="product-card">
           <a class="product-card-link" href="#">
             <img class="product-card-image" src="images/hotel-2.jpg" width="300px" height="212px" alt="Villas at Poco Diablo">
             <h3 class="product-card-title">Villas at Poco Diablo</h3>
           </a>
-          <span>Гостиница</span>
-          <b>От 5000 ₽</b>
-          <a class="product-card-button button button-small" href="#">Подробнее</a>
-          <a class="product-card-button-checked button button-green-green" href="#">В избранном</a>
+          <div class="price-wraper">
+            <span>Гостиница</span>
+            <b class="price">От 5000 ₽</b>
+          </div>
+          <div class="button-wraper">
+            <a class="product-card-button button button-small" href="#">Подробнее</a>
+            <a class="product-card-button-checked button button-green-green" href="#">В избранном</a>
+          </div>
           <p class="points">Рейтинг: 9,2</p>
         </li>
         <li class="product-card">
@@ -153,8 +163,10 @@
             <img class="product-card-image" src="images/hotel-3.jpg" width="300px" height="212px" alt="Desert Quail Inn">
             <h3 class="product-card-title">Desert Quail Inn</h3>
           </a>
-          <span>Гостиница</span>
-          <b>От 2500 ₽</b>
+          <div class="price-wraper">
+            <span>Гостиница</span>
+            <b class="price">От 2500 ₽</b>
+          </div>
           <a class="product-card-button button button-small" href="#">Подробнее</a>
           <a class="product-card-button-blue button button-blue-blue button-small-small" href="#">В избранное</a>
           <p class="points">Рейтинг: 6,9</p>
@@ -164,8 +176,10 @@
             <img class="product-card-image" src="images/hotel-4.jpg" width="300px" height="212px" alt="GreenTree Inn">
             <h3 class="product-card-title">GreenTree Inn</h3>
           </a>
-          <span class="hotel">Гостиница</span>
-          <b>От 1500 ₽</b>
+          <div class="price-wraper">
+            <span class="hotel">Гостиница</span>
+            <b class="price">От 1500 ₽</b>
+          </div>
           <a class="product-card-button button button-small" href="#">Подробнее</a>
           <a class="product-card-button-blue button button-blue-blue button-small-small" href="#">В избранное</a>
           <p class="points">Рейтинг: 5,0</p>
@@ -193,13 +207,15 @@
       </ul>
     </section>
     <section>
-      <h3 class="description-black">Подпишитесь на рассылку</h3>
-        <p class="information">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="newsletter-email">Email</label>
-            <input class="field"  placeholder="Ваш e=mail" type="email" name="newsletter-email" id="newsletter-email" required>
-            <button class="button newsletter-button" type="submit">Подписаться</button>
-        </form>
+      <div class="information-wraper">
+        <h3 class="description-black">Подпишитесь на рассылку</h3>
+          <p class="information">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label for="newsletter-email">Email</label>
+              <input class="field"  placeholder="Ваш e=mail" type="email" name="newsletter-email" id="newsletter-email" required>
+              <button class="button newsletter-button" type="submit">Подписаться</button>
+          </form>
+      </div>
     </section>
   </div>
   </main>
@@ -207,21 +223,21 @@
     <section>
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a href="https://vk.com/htmlacademy">
-                <span class="visually-hidden">ВКонтакте</span>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a href="https://t.me/htmlacademy">
-                <span class="visually-hidden">Телеграмм</span>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a href="https://www.youtube.com/user/htmlacademyru">
-                <span class="visually-hidden">Ютуб</span>
-              </a>
-            </li>
+          <li class="footer-social-item">
+            <a href="https://vk.com/htmlacademy" class="vk social">
+              <span class="visually-hidden">ВКонтакте</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a href="https://t.me/htmlacademy" class="tg social">
+              <span class="visually-hidden">Телеграмм</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a href="https://www.youtube.com/user/htmlacademyru" class="you-tube social">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
         </ul>
     </section>
     <section>

@@ -399,6 +399,10 @@ body {
   text-transform: uppercase;
 }
 
+.product-card:last-child {
+  margin-bottom: 70px;
+}
+
 .product-card-link {
   text-decoration: none;
 }
@@ -410,6 +414,14 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.price-wraper {
+  display: flex;
+  margin-bottom: 16px;
 }
 
 .price {
@@ -418,6 +430,8 @@ body {
   font-weight: 400;
   line-height: 21px;
   color: #333333;
+  width: 140px;
+  margin-left: auto;
 }
 
 .points {
@@ -427,6 +441,12 @@ body {
   line-height: 20px;
   color: #333333;
   text-transform: uppercase;
+
+}
+
+.points {
+  display: flex;
+  justify-content: end;
 }
 
 .title-hotel {
@@ -445,10 +465,16 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  padding: 0;
+  margin-bottom: 54px;
 }
 
 .newsletter-form {
   text-align: center;
+}
+
+.pagination-item {
+  margin-right: 8px;
 }
 
 .pagination-link {
@@ -498,15 +524,22 @@ body {
 
 .button-small {
   padding: 8px 26px;
+  margin: 0;
+  margin-right: 20px;
+  margin-bottom: 16px;
 }
 
 .button-small-small {
   padding: 8px 20px;
+  margin: 0;
+  margin-bottom: 16px;
 }
+
 
 .button-green-green {
   background-color: #7DB54F;
   padding: 8px 18px;
+  margin-bottom: 16px;
 }
 
 .main {
@@ -565,10 +598,11 @@ body {
 
 .product-list {
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 70px;
 }
 
 .preview-logo {
@@ -592,8 +626,6 @@ body {
   width: 48px;
   height: 40px;
   display: block;
-  margin-left: 70px;
-  margin-right: 41px;
   background-color: #000000;
 }
 
@@ -622,12 +654,30 @@ body {
 .product-card {
   width: 340px;
   max-height: 438px;
+  padding: 20px;
+}
+
+.product-card-image {
+margin-bottom: 16px;
+}
+
+.button-wraper {
+  display: flex;
 }
 
 .pagination {
+  list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
+  margin-bottom: 60px ;
+  margin-left: 70px;
+}
+
+.information-wraper {
+width: 685px;
+margin: 0 auto;
+text-align: center;
 }
 
 .main-container {
@@ -659,6 +709,9 @@ body {
   text-transform: uppercase;
   color: #000000;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 .button {
