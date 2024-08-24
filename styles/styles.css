@@ -42,6 +42,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
+  height: 64px;
 }
 
 .page-container {
@@ -56,6 +57,11 @@ body {
   list-style-type: none;
   display: flex;
 }
+
+.navigation-svg {
+  padding: 22px 12px;
+}
+
 
 .navigation-icon-list {
   margin-left: auto;
@@ -99,15 +105,6 @@ body {
   display: inline-block;
 }
 
-.big-button {
-  padding: 8px 50px;
-  font-family: "PT Sans", sans-serif;
-  font-size: 20px;
-  font-weight: 700px;
-  line-height: 36px;
-  text-align: center;
-  margin-bottom: 96px;
-}
 
 .preview {
   background-image: url("../images/main-photo.jpg");
@@ -155,6 +152,29 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 62px;
+  position: relative;
+}
+
+.advantages-title-white::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #FFFFFF4D;
+  position: absolute;
+  top: 90px;
+  left: 85px;
+}
+
+.advantages-title-black::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #0000004D;
+  position: absolute;
+  top: 90px;
+  left: 85px;
 }
 
 .advantages-description-white {
@@ -210,6 +230,7 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 62px;
+  position: relative;
 }
 
 .advantages-title-black-black {
@@ -307,12 +328,6 @@ body {
   height: 415px;
 }
 
-.newsletter-button {
-  color: #FFFFFF;
-  background-color: #82B3D3;
-  margin-bottom: 104px;
-}
-
 .footer-social-list {
   list-style-type: none;
   padding: 0;
@@ -402,6 +417,8 @@ body {
   display: grid;
   grid-template-columns: 140px 140px;
   gap: 16px 20px;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
 }
 
 .product-card-title {
@@ -464,6 +481,7 @@ body {
   margin-right: 8px;
 }
 
+
 .pagination-link {
   display: inline-block;
   font-family: "PT Sans", sans-serif;
@@ -478,6 +496,7 @@ body {
   padding-bottom: 13px;
   padding-left: 23px;
   color: #FFFFFF;
+  border-radius: 5px;
 }
 
 .pagination-current {
@@ -509,17 +528,11 @@ body {
   font-size: 16px;
 }
 
-.button-small {
-  padding: 8px 26px;
-  margin: 0;
-  margin-right: 20px;
-  margin-bottom: 16px;
-}
-
 .button-small-small {
   padding: 8px 20px;
   margin: 0;
   margin-bottom: 16px;
+  border-radius: 5px;
 }
 
 
@@ -527,6 +540,7 @@ body {
   background-color: #7DB54F;
   padding: 8px 18px;
   margin-bottom: 16px;
+  border-radius: 5px;
 }
 
 .main {
@@ -571,12 +585,13 @@ body {
   margin-top: 56px;
   margin-left: 70px;
   margin-bottom: 46px;
-  margin-right: 200px;
+  margin-right: 130px;
 }
 
 .title-control {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .small-breadcrumbs {
@@ -641,7 +656,7 @@ margin-bottom: 16px;
   display: flex;
   margin: 0;
   padding: 0;
-  margin-bottom: 60px ;
+  margin-bottom: 156px ;
   margin-left: 70px;
 }
 
@@ -649,6 +664,7 @@ margin-bottom: 16px;
 width: 685px;
 margin: 0 auto;
 text-align: center;
+
 }
 
 .main-container {
@@ -699,4 +715,95 @@ text-align: center;
   text-decoration: none;
   grid-column-start: 1;
   grid-column-end: -1;
+}
+
+.first-button {
+  margin-right: 70px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.button-small {
+  padding: 8px 26px;
+  margin: 0;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+.big-button {
+  padding: 8px 50px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 96px;
+  border-radius: 5px;
+}
+
+.newsletter-button {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  margin-bottom: 104px;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px 50px;
+  border-radius: 5px;
+}
+
+.select-control {
+  width: 292px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+  appearance: none;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 12px 20px;
+  background-image: url(../images/vector.svg);
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}
+
+.button-button {
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin-right: 8px;
+}
+
+.button-checked {
+  border: 2px solid #000000;
+}
+
+.button-wrapper {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 62px;
+}
+
+.mode {
+  background-image: url(../images/mode.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mode-second {
+  background-image: url(../images/mode2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mode-third {
+  background-image: url(../images/mode3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
