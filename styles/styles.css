@@ -530,13 +530,6 @@ body {
   font-size: 16px;
 }
 
-.button-small-small {
-  padding: 8px 20px;
-  margin: 0;
-  margin-bottom: 16px;
-  border-radius: 5px;
-}
-
 
 .button-green-green {
   background-color: #7DB54F;
@@ -725,14 +718,6 @@ text-align: center;
   border-radius: 5px;
 }
 
-.button-small {
-  padding: 8px 26px;
-  margin: 0;
-  margin-right: 20px;
-  margin-bottom: 16px;
-  border-radius: 5px;
-}
-
 .big-button {
   padding: 8px 50px;
   font-family: "PT Sans", sans-serif;
@@ -740,9 +725,12 @@ text-align: center;
   font-weight: 700px;
   line-height: 20px;
   text-align: center;
-  margin-bottom: 96px;
   border-radius: 5px;
   border: none;
+}
+
+.big-button:first-child {
+margin-bottom: 40px;
 }
 
 .newsletter-button {
@@ -933,7 +921,7 @@ text-align: center;
 .warapper-button {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  justify-content: center;
 }
 
 .catalog-filter-list {
@@ -1014,7 +1002,40 @@ input[type="checkbox"],
   left: 21px;
 }
 
-.breadcrumbs-item::before {
-  background-image: url(../images/vector.svg);
+
+.breadcrumbs-link-pictures::before {
+  content: "";
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-image: url(../images/home.svg);
   background-repeat: no-repeat;
+}
+
+.breadcrumbs-link-pictures {
+  display: block;
+  width: 12px;
+}
+
+
+
+.button-small-small {
+  padding: 8px 20px;
+  margin: 0;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+.button-small {
+  margin: 0;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+
 }
