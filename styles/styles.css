@@ -821,24 +821,18 @@ margin-bottom: 40px;
 }
 
 .field {
-  margin: 0;
-  padding: 17px 345px 14px 20px;
-  font: inherit;
-  font-weight: 400;
-  background-color: #F2F2F2;
-  border: none;
-  border-radius: 4px;
-  margin-bottom: 1px;
+  padding: 14px 0;
 }
 
 .field-group {
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.people-container {
   display: flex;
-
 }
 
-.field-big {
-  width: 440px;
-}
 
 .grid-input {
   display: grid;
@@ -1127,20 +1121,25 @@ input[type="checkbox"],
 .modal {
   position: relative;
   margin: auto;
-  padding: 40px;
   background-color: #FFFFFF;
   border-radius: 30px;
+  padding: 64px 70px;
 }
 
-.modal-auth {
+.modal-search{
   width: 717px;
+}
+
+.modal-content {
+margin: 0;
+padding: 0;
 }
 
 .modal-close-button {
   position: absolute;
   padding: 0;
-  top: 0;
-  right: 0;
+  top: 64px;
+  right: 52px;
   width: 52px;
   height: 52px;
   border: none;
@@ -1149,15 +1148,14 @@ input[type="checkbox"],
 }
 
 .modal-title {
-  margin: 0;
-  margin-bottom: 64px;
-  margin-top: 24px;
-  margin-left: 24px;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
   color: #000000;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 64px;
 }
 
 .preview::before{
@@ -1465,11 +1463,30 @@ input[type="checkbox"],
   line-height: 24px;
   font-size: 20px;
   color: #000000;
-  margin-left: 25px;
-  margin-right: 24px;
+  margin: 0;
+  font-family: inherit;
 }
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
 .label-small {
   margin-right: 18px;
+}
+
+.label-big {
+  margin-right: 24px;
+}
+
+.field-first {
+  margin-left: 30px;
+  margin-right: 88px;
+}
+
+.field-second {
+  margin-left: 75px;
 }
 
 input::placeholder {
@@ -1478,4 +1495,40 @@ input::placeholder {
   font-size: 18px;
   font-family: inherit;
   line-height: 24px;
+}
+
+.counter {
+  border: none;
+  position: relative;
+}
+
+.field-big {
+  width: 440px;
+  border: none;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  padding: 17px;
+}
+
+.field-short {
+  width: 110px;
+  border: none;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.serach-button {
+  border: none;
+  padding: 18px;
+  text-transform: uppercase;
+  background-color: #83B3D3;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  display: block;
+  width: 577px;
 }
