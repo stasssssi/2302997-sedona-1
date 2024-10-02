@@ -784,6 +784,12 @@ margin-bottom: 40px;
   margin-right: 62px;
 }
 
+.button-wrap {
+  width: 110px;
+  display: flex;
+  height: 48px;
+}
+
 .mode {
   background-image: url(../images/mode.svg);
   background-repeat: no-repeat;
@@ -824,13 +830,20 @@ margin-bottom: 40px;
   padding: 14px 0;
 }
 
-.field-group {
-  margin: 0;
-  margin-bottom: 48px;
+.people-container .field-group {
+  margin-bottom: 0;
 }
 
 .people-container {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.field-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -940,6 +953,10 @@ margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.people-container label {
+  margin-right: 46px;
 }
 
 .catalog-filter-list {
@@ -1124,6 +1141,7 @@ input[type="checkbox"],
   background-color: #FFFFFF;
   border-radius: 30px;
   padding: 64px 70px;
+  box-sizing: border-box;
 }
 
 .modal-search{
@@ -1477,7 +1495,7 @@ padding: 0;
 }
 
 .label-big {
-  margin-right: 24px;
+  margin: 0;
 }
 
 .field-first {
@@ -1498,8 +1516,10 @@ input::placeholder {
 }
 
 .counter {
-  border: none;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
 }
 
 .field-big {
@@ -1508,6 +1528,7 @@ input::placeholder {
   background-color: #F2F2F2;
   border-radius: 5px;
   padding: 17px;
+  box-sizing: border-box;
 }
 
 .field-short {
