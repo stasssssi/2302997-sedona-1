@@ -844,6 +844,7 @@ margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 
@@ -931,11 +932,7 @@ margin-bottom: 40px;
   justify-content: space-between;
 }
 
-.placeholder {
-  font-weight: 700;
-  color: #000000;
-  font-size: 18px;
-}
+
 
 .span-input {
   position: absolute;
@@ -1192,10 +1189,37 @@ padding: 0;
   justify-content: center;
 }
 
-.field {
+.field-email {
   border-radius: 0;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 23px;
+  padding-right: 345px;
+  font-size: 18px;
+  font-family: inherit;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  border: none;
+}
+
+.field-email-grey {
+  border-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 23px;
+  padding-right: 345px;
+  font-size: 18px;
+  font-family: inherit;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  border: none;
+  background-color: #F2F2F2;
 }
 
 .first-button:hover {
@@ -1520,6 +1544,7 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   width: 40px;
+  border: none;
 }
 
 .field-big {
@@ -1537,6 +1562,8 @@ input::placeholder {
   background-color: #F2F2F2;
   border-radius: 5px;
   text-align: center;
+  margin: 0;
+  width: 31px;
 }
 
 .serach-button {
@@ -1552,4 +1579,166 @@ input::placeholder {
   line-height: 24px;
   display: block;
   width: 577px;
+}
+
+.modal-close-button::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 19px;
+  background-image: url(../images/cross.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 19px;
+  left: 19px;
+}
+
+.label-big::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 19px;
+  background-image: url(../images/calendar.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 540px;
+  top: 15px;
+}
+
+.label-small::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 19px;
+  background-image: url(../images/calendar.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 540px;
+  top: 15px;
+}
+
+.red-text {
+  display: none;
+  position: absolute;
+  color: red;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 0;
+}
+
+.black-text {
+  display: none;
+  position: absolute;
+  color: #333333;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 0;
+}
+
+.counter-left-first::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 19px;
+  background-image: url(../images/minus.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.counter-left-second::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 19px;
+  background-image: url(../images/minus.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.counter-right-first::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 19px;
+  background-image: url(../images/plus.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: center;
+}
+
+.counter-right-second::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 19px;
+  background-image: url(../images/plus.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: center;
+}
+
+.form-label-children::before {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  background-color: #83B3D3;
+  border-radius: 50px;
+  left: 60px;
+  bottom: 1px;
+  background-image: url(../images/i.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modal-containerfield-close {
+  display: none;
+}
+
+.tooltip-toggle {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.tooltip-text {
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  padding-left: 22px;
+  padding-right: 18px;
+  border-radius: 8px;
+  display: block;
+  width: 216px;
+  position: relative;
+  right: 150px;
+  top: 27px;
+  z-index: 1;
+  display: none;
+}
+
+.tooltip {
+  position: absolute;
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
+
+.placeholder {
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
 }
