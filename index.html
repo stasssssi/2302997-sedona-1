@@ -45,7 +45,7 @@
   <main class="main-index main-container">
       <section class="preview">
       <h1 class="visually-hidden">Седона</h1>
-      <img class="preview-logo" src="images/welcome.svg" alt="Превью Седоны Логотип" width="358px" height="352px">
+      <img class="preview-logo" src="images/welcome.svg" alt="Превью Седоны Логотип" width="458px" height="352px">
       </section>
       <section class="first-section">
           <h2 class="visually-hidden">Что такое Седона?</h2>
@@ -61,7 +61,7 @@
                     <h3 class="advantages-title-white">Настоящий городок</h3>
                     <p class="advantages-description-white">Седона — не аттракцион для<br> туристов, там течёт своя жизнь</p>
                   </div>
-                <img src="images/photo-1.jpg" class="image" alt="Изображение Седоны" width="800px" height="485px">
+                <img src="images/photo-1.jpg" class="image" alt="Изображение Седоны" width="800px" height="385px">
               </li>
               <li class="advantages-item very-light-blue">
                   <div class="advantages-item-block">
@@ -84,7 +84,7 @@
               <li class="advantages-item-picture">
                 <img src="images/photo-2.jpg" alt="Мост дьявола" width="800px" height="385px">
                 <div class="advantages-item-wrapper">
-                  <h3 class="advantages-title-white">Там есть мост дьявола</h3>
+                  <h3 class="advantages-title-white">Там есть<br> мост дьявола</h3>
                   <p class="advantages-description-white">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
                 </div>
               </li>
@@ -92,8 +92,8 @@
       </section>
       <section>
           <h2 class="visually-hidden">Особенности Седоны</h2>
-          <p class="description">Приезжайте в Седону отдохнуть<br> в комфорте и уюте!</p>
-          <p class="description-part">Опытный персонал и качественное обслуживание!</p>
+          <p class="description description-size">Приезжайте в Седону отдохнуть<br> в комфорте и уюте!</p>
+          <p class="description-part description-part-size">Опытный персонал и качественное обслуживание!</p>
           <ul class="advantages-list-list">
               <li class="advantages-item light-blue home">
                 <div class="warapper">
@@ -160,7 +160,7 @@
       <a href="https://htmlacademy.ru/"><img class="footer-contacts-logo" src="images/html-logo.svg" width="115px" height="33px" alt="Логотип htmlacademy."></a>
   </footer>
   </div>
-  <div class="modal-containerfield-short modal-containerfield-close">
+  <div class="modal-short modal-close">
     <div class="modal-container">
       <div class="modal modal-search">
         <button class="modal-close-button">
@@ -181,6 +181,7 @@
           </p>
           <p class="black-text visually-hidden">На эти даты есть свободные номера. Пока есть.</p>
           <div class="people-container">
+            <div class="group-wrap">
             <p class="field-group">
               <label class="form-label" for="appointment-date">Взрослые:</label>
               <div class="button-wrap">
@@ -189,17 +190,18 @@
                 <button type="button" class="counter counter-right-first"></button>
               </div>
             </p>
+          </div>
+          <div class="group-wrap">
             <p class="field-group">
               <span class="form-label">
-                <label class="form-label form-label-children" for="appointment-date">Дети:</label>
-                <span class="tooltip">
-                  <button class="tooltip-toggle" type="button">
-                    <svg width="2" height="12" viewBox="0 0 2 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H2V2H0V0ZM2 12H0V3H2V12Z" fill="white"/>
-                      </svg>
-                  </button>
-                  <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
-                </span>
+                <label class="form-label form-label-children" for="appointment-date">Дети:
+                  <span class="tooltip">
+                    <button class="tooltip-toggle" type="button">
+                    </button>
+                    <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                  </span>
+                </label>
+
               </span>
               <div class="button-wrap">
                 <button type="button" class="counter counter-left-second"></button>
@@ -207,6 +209,7 @@
                 <button type="button" class="counter counter-right-second"></button>
               </div>
             </p>
+          </div>
           </div>
           <button class="serach-button">Найти</button>
       </form>
