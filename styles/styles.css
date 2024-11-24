@@ -728,6 +728,7 @@ margin-right: 70px;
 margin-left: 20px;
 border-radius: 5px;
 padding: 8px 34px;
+line-height: 20px;
 }
 
 .newsletter-button {
@@ -754,9 +755,9 @@ appearance: none;
 border: 2px solid #E5E5E5;
 border-radius: 4px;
 padding: 12px 20px;
-background-image: url(../images/vector.svg);
+background-image: url(../images/vector-vector.svg);
 background-repeat: no-repeat;
-background-position: right 10px center;
+background-position: right 20px center;
 margin-top: 10px;
 }
 
@@ -1753,7 +1754,6 @@ display: flex;
 
 .button-green-green {
   padding: 8px 18px;
-  margin-bottom: 16px;
   border-radius: 3px;
   box-sizing: border-box;
   background-color: #7DB54F;
@@ -1769,7 +1769,7 @@ width: 20px;
 height: 20px;
 background-image: url(../images/vector2.svg);
 background-repeat: no-repeat;
-background-position: center center;
+background-position: left 4px center;
 }
 
 .control-input[type="radio"]:checked + .control-mark::before {
@@ -1779,7 +1779,7 @@ width: 20px;
 height: 20px;
 background-image: url(../images/circle.svg);
 background-repeat: no-repeat;
-background-position: center center;
+background-position: left 5px center;
 position: absolute;
 }
 
@@ -1803,5 +1803,3 @@ position: absolute;
     height: 36px;
     line-height: 20px;
     }
-
-
