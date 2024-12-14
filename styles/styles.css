@@ -68,6 +68,7 @@ padding: 0;
 width: 570px;
 list-style-type: none;
 display: flex;
+flex-wrap: wrap;
 }
 
 .navigation-svg {
@@ -284,7 +285,7 @@ background-color: #82B3D3;
 }
 
 .home {
-background-image: url(../images/home.svg);
+background-image: url(../images/house.svg);
 background-repeat: no-repeat;
 background-position: 162px 80px;
 }
@@ -621,7 +622,8 @@ margin-bottom: 80px;
 display: flex;
 margin: 0;
 padding: 0;
-height: 385px;
+min-height: 385px;
+flex-wrap: wrap;
 }
 
 .advantages-item {
@@ -726,6 +728,9 @@ margin-left: 20px;
 border-radius: 5px;
 padding: 8px 34px;
 line-height: 20px;
+box-sizing: border-box;
+max-height: 36px;
+text-wrap: nowrap;
 }
 
 .newsletter-button {
@@ -756,6 +761,7 @@ background-image: url(../images/vector-vector.svg);
 background-repeat: no-repeat;
 background-position: right 20px center;
 margin-top: 10px;
+background-color: white;
 }
 
 .button-button {
@@ -1009,7 +1015,7 @@ display: block;
 width: 12px;
 height: 12px;
 position: absolute;
-background-image: url(../images/home.svg);
+background-image: url(../images/little-home.svg);
 background-repeat: no-repeat;
 background-size: contain;
 top: 5px;
@@ -1162,7 +1168,7 @@ height: 57px;
 position: absolute;
 background-repeat: no-repeat;
 background-image: url(../images/sedona.svg);
-top: 493px;
+top: 428px;
 }
 
 .form-wrapper {
@@ -1502,6 +1508,7 @@ font-weight: 400;
 font-size: 18px;
 font-family: inherit;
 line-height: 24px;
+width: 200px;
 }
 
 .counter {
@@ -1693,10 +1700,6 @@ display: block;
 .group-wrap {
 display: flex;
 }
-
-
-
-
 
 .preview-logo {
   display: block;
