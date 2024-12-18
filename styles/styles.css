@@ -285,19 +285,19 @@ background-color: #82B3D3;
 }
 
 .home {
-background-image: url(../images/house.svg);
+background-image: url('../images/house.svg');
 background-repeat: no-repeat;
 background-position: 162px 80px;
 }
 
 .food {
-background-image: url(../images/food.svg);
+background-image: url('../images/food.svg');
 background-repeat: no-repeat;
 background-position: 164px 85px;
 }
 
 .present {
-background-image: url(../images/present.svg);
+background-image: url('../images/present.svg');
 background-repeat: no-repeat;
 background-position: 169px 85px;
 }
@@ -343,7 +343,7 @@ margin-bottom: 54px;
 }
 
 .newsletter {
-background-image: url(../images/image.jpg);
+background-image: url('../images/image.jpg');
 background-repeat: no-repeat;
 background-size: 100% auto;
 height: 415px;
@@ -365,17 +365,17 @@ margin-left: -25px
 
 
 .vk {
-background-image: url(../images/vk.svg);
+background-image: url('../images/vk.svg');
 background-repeat: no-repeat;
 }
 
 .tg {
-background-image: url(../images/telegram.svg);
+background-image: url('../images/telegram.svg');
 background-repeat: no-repeat;
 }
 
 .you-tube {
-background-image: url(../images/you-tube.svg);
+background-image: url('../images/you-tube.svg');
 background-repeat: no-repeat;
 }
 
@@ -551,7 +551,7 @@ line-height: 21px;
 
 
 .main {
-  background-image: url(../images/catalog-image.jpg);
+  background-image: url('../images/catalog-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 411px;
@@ -678,7 +678,7 @@ min-height: 100vh;
 width: 1200px;
 margin: 0 auto;
 background-color: #FFFFFF;
-box-shadow: 0px 0px 15px 0px #00000033;
+box-shadow: 0 0 15px 0 #00000033;
 }
 
 .advantages-item-picture {
@@ -757,7 +757,7 @@ appearance: none;
 border: 2px solid #E5E5E5;
 border-radius: 4px;
 padding: 12px 20px;
-background-image: url(../images/vector-vector.svg);
+background-image: url('../images/vector-vector.svg');
 background-repeat: no-repeat;
 background-position: right 20px center;
 margin-top: 10px;
@@ -793,7 +793,7 @@ height: 48px;
 }
 
 .mode {
-background-image: url(../images/mode.svg);
+background-image: url('../images/mode.svg');
 background-repeat: no-repeat;
 background-position: center;
 width: 43px;
@@ -801,13 +801,13 @@ height: 43px;
 }
 
 .mode-image {
-background-image: url(../images/mode2.svg);
+background-image: url('../images/mode2.svg');
 background-repeat: no-repeat;
 background-position: center;
 }
 
 .mode-list {
-background-image: url(../images/mode3.svg);
+background-image: url('../images/mode3.svg');
 background-repeat: no-repeat;
 background-position: center;
 }
@@ -1015,7 +1015,7 @@ display: block;
 width: 12px;
 height: 12px;
 position: absolute;
-background-image: url(../images/little-home.svg);
+background-image: url('../images/little-home.svg');
 background-repeat: no-repeat;
 background-size: contain;
 top: 5px;
@@ -1027,7 +1027,7 @@ display: block;
 width: 12px;
 height: 12px;
 position: absolute;
-background-image: url(../images/vector.svg);
+background-image: url('../images/vector.svg');
 background-repeat: no-repeat;
 background-size: contain;
 top: 5px;
@@ -1068,7 +1068,7 @@ height: 37px;
 position: absolute;
 background-repeat: no-repeat;
 background-size: contain;
-background-image: url(../images/fourStars.svg);
+background-image: url('../images/fourStars.svg');
 top: 382px;
 left: 20px;
 }
@@ -1081,7 +1081,7 @@ height: 37px;
 position: absolute;
 background-repeat: no-repeat;
 background-size: contain;
-background-image: url(../images/threeStars.svg);
+background-image: url('../images/threeStars.svg');
 top: 382px;
 left: 20px;
 }
@@ -1094,7 +1094,7 @@ height: 37px;
 position: absolute;
 background-repeat: no-repeat;
 background-size: contain;
-background-image: url(../images/twoStars.svg);
+background-image: url('../images/twoStars.svg');
 top: 380px;
 left: 20px;
 }
@@ -1167,7 +1167,7 @@ width: 1200px;
 height: 57px;
 position: absolute;
 background-repeat: no-repeat;
-background-image: url(../images/sedona.svg);
+background-image: url('../images/sedona.svg');
 top: 428px;
 }
 
@@ -1436,6 +1436,7 @@ cursor: pointer;
 .control-mark:hover {
 opacity: 0.7;
 }
+
 .control-mark-mark:hover {
 opacity: 0.7;
 }
@@ -1443,6 +1444,7 @@ opacity: 0.7;
 .control-mark:focus {
 border: 3px solid #83B3D3;
 }
+
 .control-mark-mark:focus {
 border: 3px solid #83B3D3;
 }
@@ -1450,6 +1452,7 @@ border: 3px solid #83B3D3;
 .control-mark:active {
 opacity: 0.5;
 }
+
 .control-mark-mark:active {
 opacity: 0.5;
 }
@@ -1469,7 +1472,6 @@ opacity: 1;
 .social:active {
 opacity: 0.5;
 }
-
 
 .form-label {
 font-weight: 700;
@@ -1557,7 +1559,7 @@ content: "";
 display: block;
 width: 20px;
 height: 19px;
-background-image: url(../images/cross.svg);
+background-image: url('../images/cross.svg');
 background-repeat: no-repeat;
 position: absolute;
 top: 19px;
@@ -1569,7 +1571,7 @@ content: "";
 display: block;
 width: 20px;
 height: 19px;
-background-image: url(../images/calendar.svg);
+background-image: url('../images/calendar.svg');
 background-repeat: no-repeat;
 position: absolute;
 left: 540px;
@@ -1581,7 +1583,7 @@ content: "";
 display: block;
 width: 20px;
 height: 19px;
-background-image: url(../images/calendar.svg);
+background-image: url('../images/calendar.svg');
 background-repeat: no-repeat;
 position: absolute;
 left: 540px;
@@ -1615,7 +1617,7 @@ content: "";
 display: block;
 width: 20px;
 height: 19px;
-background-image: url(../images/minus.svg);
+background-image: url('../images/minus.svg');
 background-repeat: no-repeat;
 position: absolute;
 }
@@ -1625,7 +1627,7 @@ content: "";
 display: block;
 width: 20px;
 height: 19px;
-background-image: url(../images/minus.svg);
+background-image: url('../images/minus.svg');
 background-repeat: no-repeat;
 position: absolute;
 }
@@ -1635,7 +1637,7 @@ content: "";
 display: block;
 width: 20px;
 height: 19px;
-background-image: url(../images/plus.svg);
+background-image: url('../images/plus.svg');
 background-repeat: no-repeat;
 position: absolute;
 background-position: center;
@@ -1646,7 +1648,7 @@ content: "";
 display: block;
 width: 20px;
 height: 19px;
-background-image: url(../images/plus.svg);
+background-image: url('../images/plus.svg');
 background-repeat: no-repeat;
 position: absolute;
 background-position: center;
@@ -1708,7 +1710,7 @@ display: flex;
 }
 
 .preview {
-  background-image: url(../images/main-photo.jpg);
+  background-image: url('../images/main-photo.jpg');
   background-repeat: no-repeat;
   width: 100%;
   height: 485px;
@@ -1767,7 +1769,7 @@ content: "";
 display: block;
 width: 20px;
 height: 20px;
-background-image: url(../images/vector2.svg);
+background-image: url('../images/vector2.svg');
 background-repeat: no-repeat;
 background-position: left 4px center;
 }
@@ -1777,7 +1779,7 @@ background-position: left 4px center;
 display: block;
 width: 20px;
 height: 20px;
-background-image: url(../images/circle.svg);
+background-image: url('../images/circle.svg');
 background-repeat: no-repeat;
 background-position: left 5px center;
 position: absolute;
